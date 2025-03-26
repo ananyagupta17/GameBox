@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+    text-align: center;
+    font-family: Poppins;
+    background-color: #000000;
+  }
+  
+  .btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    /* border: 10px solid #; */
+    margin: 1.5rem;
+  }
+
+  h1, h2{
+    color: #ffffff;
+    font-family: Rajdhani;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .yellow {
+    background-color: #fffb00;
+    box-shadow: 
+    0 0 30px rgb(255, 247, 0), 
+    0 0 20px rgba(230, 208, 43, 0.831), 
+    0 0 10px rgba(255, 240, 27, 0.818), 
+    0 0 5px rgba(255, 231, 20, 0.614);
+  }
+  
+  .red {
+    background-color: #ff0004;
+    box-shadow: 
+    0 0 30px rgb(226, 7, 7), 
+    0 0 20px rgb(246, 24, 24), 
+    0 0 10px rgba(232, 35, 35, 0.689), 
+    0 0 5px rgba(138, 19, 19, 0.614);
+  }
+  
+  .purple {
+    background-color: #0b02b0;
+    box-shadow: 
+    0 0 30px rgb(14, 25, 219), 
+    0 0 20px rgb(17, 31, 232), 
+    0 0 10px rgba(6, 38, 199, 0.633), 
+    0 0 5px rgba(30, 35, 193, 0.588);
+  }
+  
+  .green {
+    background-color: #44ff00;
+    box-shadow: 
+    0 0 30px rgba(20, 215, 13, 0.972), 
+    0 0 20px rgba(37, 184, 20, 0.67), 
+    0 0 10px rgba(84, 245, 15, 0.689), 
+    0 0 5px rgba(42, 212, 0, 0.996);
+  }
+  
+  .flash {
+    background-color: #1d040488;
+  }
+  
+  .userflash {
+    background-color: green;
+  }
+
+  h1{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    text-shadow: 
+    0 0 5px rgb(133, 169, 243), 
+    0 0 10px rgb(81, 152, 250), 
+    0 0 15px rgb(177, 14, 177), 
+    0 0 250px rgb(235, 44, 155);
+  }
+
+  

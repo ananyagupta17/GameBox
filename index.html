@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GameBox</title>
+</head>
+<body>
+    <div class="title glow">
+        <h1>GAMEBOX</h1>
+    </div>
+    <div class="glow">
+        <h4>SIMPLE GAMES, ENDLESS FUN!</h4>
+    </div>
+    <div class="description">
+        Enjoy three timeless classics in one place! Challenge your mind with Tic-Tac-Toe, test your reflexes with Snake, and sharpen your memory with Simon Says. Whether you're looking for a quick break or a fun challenge, GameBox has got you covered.
+
+Ready to play? Jump in and start the fun! 🎮
+    </div>
+    
+<div class="container">
+<div class="ttt card" id="clickableDiv_ttt">
+    <img src="tictactoe.png" alt="" >
+</div>
+
+<div class="snake card" id="clickableDiv_snake">
+    <img src="snake.png" alt="">
+</div>
+<div class="simon card" id="clickableDiv_simon">
+    <img src="simonsays.png" alt="">
+</div>
+</div>
+<div class="text-cont">
+    <div class="text ttt-text">
+        TIC TAC TOE
+    </div>
+    <div class="text snake-text">
+        SNAKE
+    </div>
+    <div class="text simon-text">
+        SIMON SAYS
+    </div>
+</div>
+
+<script>
+   document.getElementById("clickableDiv_ttt").onclick = function () {
+        window.location.href = "tic tac toe/index.html";
+    };
+
+    document.getElementById("clickableDiv_snake").onclick = function () {
+        window.location.href = "snake/index.html";
+    };
+
+    document.getElementById("clickableDiv_simon").onclick = function () {
+        window.location.href = "simon says/index.html";
+    };
+
+</script>
+</body>
+</html>
