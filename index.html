@@ -46,6 +46,13 @@ Ready to play? Jump in and start the fun! 🎮
 </div>
 
 <script>
+    function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+
+window.addEventListener('resize', resizeCanvas);
+resizeCanvas(); 
 
     const canvas = document.getElementById('starfield');
         const ctx = canvas.getContext('2d');
