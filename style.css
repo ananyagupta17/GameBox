@@ -179,3 +179,12 @@ h4{
     0 0 20px rgb(222, 216, 42), 
     0 0 30px rgb(238, 200, 12);;
 }
+
+#starfield {
+    position: fixed;  /* Keeps it fixed in place */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;  /* Moves it behind other content */
+}
